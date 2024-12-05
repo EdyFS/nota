@@ -1,0 +1,79 @@
+body{
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    margin: auto;
+}
+
+.centro{
+    display: block;
+}
+
+header{
+    margin: 2em;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    margin: 2em;
+    padding: 2em;
+    display: block;
+    justify-content: center;
+}
+
+form{
+    display: block;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+    
+}
+
+.formulario{
+    display: block;
+    margin: 1em;
+}
+
+footer{
+    margin: 2em;
+    margin-bottom: 0em;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 3em;
+}
+
+.letra{
+    font-size: 1.25em;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border: 0.1em solid black;
+    color: whitesmoke;
+    font-size: 1em;
+    padding: 0.25em;
+}
+#submit{
+    background-color: green;
+}
+
+#reset{
+    background-color: red;
+}
+
+input{
+    font-size: 1em;
+    width: 30em;
+    border: 0.1em solid black;
+    justify-content: center;
+}
