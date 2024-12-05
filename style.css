@@ -77,3 +77,47 @@ input{
     border: 0.1em solid black;
     justify-content: center;
 }
+
+@media screen and (max-width: 720px) {
+    body{
+        background-color: darkblue;
+        display: flex;
+        justify-content: center;
+        color: whitesmoke;
+        margin: auto;
+    }
+    
+    .centro{
+        display: block;
+    }
+    
+    header{
+        margin: 2em;
+        padding: 2em;
+        display: flex;
+        justify-content: center;
+    }
+    
+    main{
+        margin: 2em;
+        padding: 2em;
+        display: block;
+        justify-content: center;
+    }
+
+    footer{
+        margin: 2em;
+        margin-bottom: 0em;
+        padding: 2em;
+        display: flex;
+        justify-content: center;
+    }
+    
+    input{
+        font-size: 1em;
+        width: 20em;
+        border: 0.1em solid black;
+        justify-content: center;
+    }
+
+}
